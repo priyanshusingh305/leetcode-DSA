@@ -36,14 +36,6 @@ public:
             }
         }
         
-        // for(int i=0;i<(count-1)/2;i++)
-        // {
-        //     tag=tag->next;
-        //     if(i==(count-1)/2-1){
-        //         tag->val=tag->next->val;
-        //         tag->next=tag->next->next;
-        //     }
-        // }
         return head;
     }
 };
